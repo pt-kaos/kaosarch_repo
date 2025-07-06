@@ -1,19 +1,19 @@
 #!/bin/bash
 
-rm kiro_repo*
+rm kaosarch_repo*
 
 echo "repo-add"
-repo-add -n -R kiro_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R kaosarch_repo.db.tar.gz *.pkg.tar.zst
 
 sleep 1
 
-rm kiro_repo.db
+rm kaosarch_repo.db
 
-rm kiro_repo.files
+rm kaosarch_repo.files
 
-mv kiro_repo.db.tar.gz kiro_repo.db
+mv kaosarch_repo.db.tar.gz kaosarch_repo.db
 
-mv kiro_repo.files.tar.gz kiro_repo.files
+mv kaosarch_repo.files.tar.gz kaosarch_repo.files
 
 echo "####################################"
 echo "Repo Updated!!"
