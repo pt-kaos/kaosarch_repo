@@ -1,17 +1,8 @@
 #!/bin/bash
 set -eo pipefail
 ##################################################################################################################
-# Author    : Erik Dubois
-# Website   : https://www.erikdubois.be
-# Youtube   : https://youtube.com/erikdubois
-# Github    : https://github.com/erikdubois
-# Github    : https://github.com/kirodubes
-# Github    : https://github.com/buildra
-# SF        : https://sourceforge.net/projects/kiro/files/
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
+# Author    : Pedro Teodoro
+# Github    : https://github.com/pt-kaos
 ##################################################################################################################
 #tput setaf 0 = black
 #tput setaf 1 = red
@@ -26,14 +17,17 @@ set -eo pipefail
 
 # variables and functions
 workdir=$(pwd)
-dir="calamares-3.3.14.r39.g274996f"
-source=" /home/pedro/Programing/ArchISOs/KaosArch/kaosarch-pkgbuild/"
-destiny="/home/pedro/Programing/ArchISOs/KaosArch/kaosarch-calamares-config/etc/calamares/pkgbuild/"
+#dir="calamares-3.3.14-01"
+#source=" /home/pedro/Programing/ArchISOs/KaosArch/kaosarch-pkgbuild/"
+#destiny="/home/pedro/Programing/ArchISOs/KaosArch/kaosarch-calamares-config/etc/calamares/pkgbuild/"
+#
+###################################################################################################################
+#
+#rm -r $destiny*
+#cp -r $source$dir/* $destiny
 
-##################################################################################################################
-
-rm -r $destiny*
-cp -r $source$dir/* $destiny
+cd x86_64
+sh updaterepo.sh
 
 # Below command will backup everything inside the project folder
 git add --all .

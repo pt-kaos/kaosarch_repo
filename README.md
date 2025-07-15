@@ -1,10 +1,10 @@
 # kiro_repo
 
-![Kiro Logo](kiro.jpg)
+![KaosArch Logo](KaosArch.png)
 
-**Kiro** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
+**KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
 
-Kiro is my personal choice:
+KaosArch is my personal choice:
 
 - systemboot
 - ext4
@@ -22,13 +22,13 @@ Kiro is my personal choice:
 - Lightweight and minimal by default
 
 
-## Kiro repo
+## KaosArch repo
 
 
 ```
-[kiro_repo]
+[kaosarch_repo]
 SigLevel = Never
-Server = https://kirodubes.github.io/$repo/$arch
+Server = https://pt-kaos.github.io/$repo/$arch
 ```
 
 
