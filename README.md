@@ -1,38 +1,31 @@
-# kiro_repo
+# KaosArch ISO configuration
 
-![KaosArch Logo](KaosArch.png)
+![KaosArch Banner](KaosArch-Banner.png)
 
-**KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
+**KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project.
+This is built with my own settings, packages and look&feel.
+
+This distribution was created using the excelent tutorial by [Eric Dubois](https://www.youtube.com/@ErikDubois)
+You can find the tutorial here: [The Ultimate ISO building video](https://youtu.be/3jdKH6bLgUE)
 
 KaosArch is my personal choice:
 
 - systemboot
 - ext4
 - sddm
-- xfce4 and chadwm
+- awesomewm
 - a lot of free software
 
-## Features
+## 🚀 Features
 
 - Fully customizable build process
 - Based on official Arch Linux tools and methodology
-- GUI from https://github.com/calamares/calamares
+- Installation GUI from https://github.com/calamares/calamares
 - Script-driven: reproducible and automatable
 - Modular structure for easy extension
 - Lightweight and minimal by default
 
-
-## KaosArch repo
-
-
-```
-[kaosarch_repo]
-SigLevel = Never
-Server = https://pt-kaos.github.io/$repo/$arch
-```
-
-
-## Requirements
+## 📦 Requirements
 
 - Arch Linux or Arch-based system (for building) - access to necessary repos (keys - mirrors)
 - `archiso` package
@@ -41,17 +34,3 @@ Server = https://pt-kaos.github.io/$repo/$arch
 - Playlist of all the KIRO videos - including the creation of BUILDRA based on KIRO
 
 https://www.youtube.com/watch?v=3jdKH6bLgUE&list=PLlloYVGq5pS71UubmlKjjw131PjixMIjW
-
-# It is super easy to create your own ISO this way
-
-Follow this tuturial and you are already half way there.
-
-https://youtu.be/3jdKH6bLgUE 
-
-Live long and prosper
-
-# Major changes after the videos on youtube
-
-Make sure you read the major change at the bottom of the readme file on 
-
-https://github.com/kirodubes/kiro-iso
