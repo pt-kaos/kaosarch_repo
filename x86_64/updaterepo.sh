@@ -15,6 +15,6 @@ mv kaosarch_repo.db.tar.gz kaosarch_repo.db
 
 mv kaosarch_repo.files.tar.gz kaosarch_repo.files
 
-echo "####################################"
-echo "Repo Updated!!"
-echo "####################################"
+echo "====================================="
+echo "=====>     Repo Updated!!!     <====="
+echo "====================================="
